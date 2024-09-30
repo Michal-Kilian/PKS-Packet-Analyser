@@ -1,0 +1,139 @@
+{
+	"Additional info": [
+		{
+			"Ether type":
+				{
+					"010b": "PVSTP+",
+					"0200": "XEROX PUP",
+					"0201": "PUP Addr Trans",
+					"0800": "IPv4",
+					"0801": "X.75 Internet",
+					"0805": "X.25 Level 3",
+					"0806": "ARP",
+					"2000": "CDP",
+					"2004": "DTP",
+					"8035": "Reverse ARP",
+					"809b": "AppleTalk",
+					"80f3": "AppleTalk AARP",
+					"8100": "IEEE 802.1Q VLAN-tagged frames",
+					"8137": "Novell IPX",
+					"86dd": "IPv6",
+					"880b": "PPP",
+					"8847": "MPLS",
+					"8848": "MPLS with upstream-assigned label",
+					"8863": "PPPoE Discovery Stage",
+					"8864": "PPPoE Session Stage",
+					"88cc": "LLDP",
+					"9000": "ECTP"
+				},
+				
+			"Sap":
+				{
+					"42": "STP",
+					"e0": "IPX",
+					"f0": "NETBIOS",
+					"00": "Null SAP",
+                    "02": "LLC Sublayer Management / Individual",
+                    "03": "LLC Sublayer Management / Group",
+                    "06": "IP",
+                    "0e": "PROWAY Network Management",
+                    "4e": "MMS",
+                    "5e": "ISI IP",
+                    "7e": "X.25 PLP",
+                    "8e": "PROWAY Active Station List Maintenance",
+                    "aa": "SNAP",
+                    "f4": "LAN Management",
+                    "fe": "ISO Network Layer Protocols",
+                    "ff": "Global DSAP"
+				},
+			
+			"Port":
+				{
+					"20": "FTP-DATA",
+					"21": "FTP-CONTROL",
+					"22": "SSH",
+					"23": "TELNET",
+					"25": "SMTP",
+					"53": "DNS",
+					"80": "HTTP",
+					"110": "POP3",
+					"119": "NNTP",
+					"139": "NETBIOS-SSN",
+					"220": "IMAP",
+					"179": "BGP",
+					"389": "LDAP",
+					"443": "HTTPS",
+					"37": "TIME",
+					"67": "DHCP",
+					"68": "DHCP",
+					"69": "TFTP",
+					"137": "NETBIOS-NS",
+					"138": "NETBIOS-DGM",
+					"161": "SNMP",
+					"162": "SNMP-TRAP",
+					"514": "SYSLOG",
+					"520": "RIP",
+					"33434": "TRACEROUTE",
+					"1900": "SSDP",
+					"17500": "DB-LSP-DISC",
+                    "5353": "MDNS"
+				},
+			"IPv4 Protocol":
+				{
+					"00": "HOPOPT",
+					"01": "ICMP",
+					"02": "IGMP",
+					"03": "GGP",
+					"05": "ST",
+					"06": "TCP",
+					"07": "CBT",
+					"08": "EGP",
+					"09": "IGP",
+					"1d": "ISO-TP4",
+					"23": "IDPR",
+					"24": "XTP",
+					"2d": "IDRP",
+					"38": "TLSP",
+					"43": "IPPC",
+					"60": "SCC-SP",
+					"76": "STP",
+					"11": "UDP",
+					"67": "PIM"
+				},
+			"ICMP Type":
+				{
+					"0": "ECHO REPLY",
+					"3": "DESTINATION UNREACHABLE",
+					"4": "SOURCE QUENCH",
+					"5": "REDIRECT",
+					"8": "ECHO REQUEST",
+					"9": "ROUTER ADVERTISEMENT",
+					"10": "ROUTER SELECTION",
+					"11": "TIME EXCEEDED",
+					"12": "PARAMETER PROBLEM",
+					"13": "TIMESTAMP",
+					"14": "TIMESTAMP REPLY",
+					"15": "INFORMATION REQUEST",
+					"16": "INFORMATION REPLY",
+					"17": "ADDRESS MASK REQUEST",
+					"18": "ADDRESS MASK REPLY",
+					"30": "TRACEROUTE",
+					"40": "PHOTURIS",
+					"42": "EXTENDED ECHO REQUEST",
+					"43": "EXTENDED ECHO REPLY"
+				},
+			"ARP Operation Code":
+				{
+					"0001": "REQUEST",
+					"0002": "REPLY"
+				},
+			"Frame type":
+			    {
+			        "1536": "ETHERNET II",
+			        "ff": "IEEE 802.3 RAW",
+			        "aa": "IEEE 802.3 LLC & SNAP",
+			        "else": "IEEE 802.3 LLC"
+			    }
+		}
+	]
+}
